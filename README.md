@@ -2,7 +2,7 @@
 [![Python](https://img.shields.io/badge/python-3.6-blue.svg)](https://python.org)
 
 # RL-DBS
-# Reinforcement learning for suppression of collective neuronal activity with Deep Brain Stimulation (DBS) systems
+# Reinforcement learning for suppression of collective neuronal activity in Deep Brain Stimulation (DBS) systems
 
 This is a convenient gym environment for developing and comparing interaction of RL agents with several types of synthetic neuronal models of pathological brain activity. The ODEs that simulate neuronal signals are wrapped into the framework as individual environments, allowing to switch easily between environments, and to use various RL models and multiple agents. 
 
