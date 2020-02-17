@@ -15,7 +15,7 @@ We propose a class of physically meaningful reward functions enabling the suppre
 <img src="RL-DBS-diagram.png" alt>
 </p>
 <p align="center">
-<em>Principle diagram of Reinforcement Learning via PPO Actor-Critic algorithm.</em>
+<em>Principle diagram of Reinforcement Learning for Deep Brain Stimulation systems.</em>
 </p>
 
 <p align="center">
@@ -38,22 +38,22 @@ In this case you need to manually install the dependencies.
 
 ### There are few important notes:
 
-Notebook file Baseline shows how model interacts with environment and in this notebook you can find an example of trained model and training.
+Notebook file Baseline shows how the model interacts with the environment and you can find an example of a trained model in this notebook. Separate training from scratch is also shown.
 
-Environment uses Gym Notation, class that describes all information is 
+Environment uses generic Gym notation. A class that describes all relevant information is:
 ```
 gym_oscillator/envs/osc_env.py
 ```
-A C++ code that creates oscillations is the following:
+A C++ code that emulates neuronal oscillations is the following file:
 ```
 /source_for_build_files/gfg.c
 ```
 ## Citing 
 
-If you use this package in your publications or other work please cite the package as follows:
+If you use this package in your publications or in other work, please cite it as follows:
 
 ```
-Dmitrii Krylov, Remi Tachet, Romain Laroche, Michael Rosenblum and Dmitry V. Dylov 2020.
+Dmitrii Krylov, Remi Tachet, Romain Laroche, Michael Rosenblum and Dmitry V. Dylov, "Reinforcement Learning Framework for Deep Brain Stimulation", 2020.
 ```
 
 ```
