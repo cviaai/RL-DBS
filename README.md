@@ -2,7 +2,7 @@
 [![Python](https://img.shields.io/badge/python-3.6-blue.svg)](https://python.org)
 
 # RL-DBS
-Reinforcement learning for suppression of collective neuronal activity with Deep Brain Stimulation (DBS) systems
+# Reinforcement learning for suppression of collective neuronal activity with Deep Brain Stimulation (DBS) systems
 
 This is a convenient gym environment for developing and comparing interaction of RL agents with several types of synthetic neuronal models of pathological brain activity. The ODEs that simulate neuronal signals are wrapped into the framework as individual environments, allowing to switch easily between environments, and to use various RL models and multiple agents. 
 
@@ -44,13 +44,18 @@ A C++ code that creates oscillations is the following:
 If you use this package in your publications or other work please cite the package as follows:
 
 ```
-Dmitrii Krylov, Dmitry V. Dylov, Michael Rosenblum. 2019.
+Dmitrii Krylov, Remi Tachet, Romain Laroche, Michael Rosenblum and Dmitry V. Dylov 2020.
 ```
 
 ```
-@misc{RLsuppr_2019,
-  author       = {Krylov D. and Dylov D. and Rosenblum M.},
-  title        = {Reinforcement learning for suppression of collective activity in oscillatory ensembles},
-  year         = 2019
+@misc{krylov-RL-DBS,
+    title={Reinforcement Learning Framework for Deep Brain Stimulation},
+    author={Dmitrii Krylov and Remi Tachet and Romain Laroche and Michael Rosenblum and Dmitry V. Dylov},
+    year={2019},
+    eprint={1909.12154},
+    archivePrefix={arXiv},
+    primaryClass={q-bio.NC}
 }
+
+
 ```
