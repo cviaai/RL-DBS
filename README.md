@@ -2,7 +2,11 @@
 [![Python](https://img.shields.io/badge/python-3.6-blue.svg)](https://python.org)
 
 # RL-suppression-in-oscillatory-ensembles
-Reinforcement learning for suppression of collective activity in oscillatory ensembles
+Reinforcement learning for suppression of collective neuronal activity for Deep Brain Stimulation (DBS) devices
+
+This is a convenient gym environment for developing and comparing interaction of RL agents with several types of synthetic neuronal models of pathological brain activity. The ODEs that simulate neuronal signals are wrapped into the framework as individual environments, allowing to switch easily between environments, to use various RL models, and potentially multiple agents. Using this framework, we demonstrate successful suppression of the collective mode in three different types of oscillatory ensembles, using various policy-based approaches.
+
+The suppression workflow proposed here is universal and could be used to create benchmarks among different physical models, to create different control algorithms, and to pave the way towards the clinical realization of deep brain stimulation via reinforcement learning. The policy gradient algorithm PPO used below can provide a robust data-driven control, agnostic of the neuronal model and promises pathways for integration with current clinical DBS systems.
 
 The hybrid model relies on two major components: an environment of oscillators and a policy-based reinforcement learning block. This repository features a model-agnostic synchrony control based on proximal policy optimization and two artificial neural networks in an Actor-Critic configuration. 
 
