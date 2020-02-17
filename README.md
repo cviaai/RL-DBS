@@ -27,12 +27,16 @@ In this case you need to manually install the dependencies.
 
 ### There are few important notes:
 
-Notebook file Baseline shows how model interacts with environment and in this notebook you can find an example of trained model and training
+Notebook file Baseline shows how model interacts with environment and in this notebook you can find an example of trained model and training.
 
-Environment uses Gym Notation, class that describes all information is gym_oscillator/envs/osc_env.py
-
-C++ code that creates oscillations is /source_for_build_files/gfg.c
-
+Environment uses Gym Notation, class that describes all information is 
+```
+gym_oscillator/envs/osc_env.py
+```
+A C++ code that creates oscillations is the following:
+```
+/source_for_build_files/gfg.c
+```
 ## Citing 
 
 If you use this package in your publications or other work please cite the package as follows:
