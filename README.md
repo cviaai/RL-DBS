@@ -53,7 +53,7 @@ A C++ code that emulates neuronal oscillations is the following file:
 If you use this package in your publications or in other work, please cite it as follows:
 
 ```
-Dmitrii Krylov, Remi Tachet, Romain Laroche, Michael Rosenblum and Dmitry V. Dylov, "Reinforcement Learning Framework for Deep Brain Stimulation", 2020.
+Dmitrii Krylov, Remi Tachet, Romain Laroche, Michael Rosenblum and Dmitry V. Dylov, 2020.
 ```
 
 ```
