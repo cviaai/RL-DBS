@@ -1,16 +1,14 @@
 [![License](https://img.shields.io/github/license/analysiscenter/pydens.svg)](https://www.apache.org/licenses/LICENSE-2.0)
 [![Python](https://img.shields.io/badge/python-3.6-blue.svg)](https://python.org)
 
-# RL-suppression-in-oscillatory-ensembles
-Reinforcement learning for suppression of collective neuronal activity for Deep Brain Stimulation (DBS) devices
+# RL-DBS
+Reinforcement learning for suppression of collective neuronal activity with Deep Brain Stimulation (DBS) systems
 
-This is a convenient gym environment for developing and comparing interaction of RL agents with several types of synthetic neuronal models of pathological brain activity. The ODEs that simulate neuronal signals are wrapped into the framework as individual environments, allowing to switch easily between environments, to use various RL models, and potentially multiple agents. Using this framework, we demonstrate successful suppression of the collective mode in three different types of oscillatory ensembles, using various policy-based approaches.
+This is a convenient gym environment for developing and comparing interaction of RL agents with several types of synthetic neuronal models of pathological brain activity. The ODEs that simulate neuronal signals are wrapped into the framework as individual environments, allowing to switch easily between environments, and to use various RL models and multiple agents. 
 
-The suppression workflow proposed here is universal and could be used to create benchmarks among different physical models, to create different control algorithms, and to pave the way towards the clinical realization of deep brain stimulation via reinforcement learning. The policy gradient algorithm PPO used below can provide a robust data-driven control, agnostic of the neuronal model and promises pathways for integration with current clinical DBS systems.
+The suppression workflow proposed here is universal and could be used to create benchmarks among different physical models, to create different control algorithms, and to pave the way towards clinical realization of deep brain stimulation via reinforcement learning. The policy gradient algorithm PPO can provide a robust data-driven control, agnostic of the neuronal model.
 
-The hybrid model relies on two major components: an environment of oscillators and a policy-based reinforcement learning block. This repository features a model-agnostic synchrony control based on proximal policy optimization and two artificial neural networks in an Actor-Critic configuration. 
-
-A class of physically meaningful reward functions enabling the suppression of collective oscillatory mode is proposed. The synchrony suppression is demonstrated for two models of neuronal populations – for the ensembles of globally coupled limit-cycle Bonhoeffer-van der Pol oscillators and for the bursting Hindmarsh–Rose neurons.
+We propose a class of physically meaningful reward functions enabling the suppression of collective oscillatory mode. The synchrony suppression is demonstrated for two models of neuronal populations – for the ensembles of globally coupled limit-cycle Bonhoeffer-van der Pol oscillators and for the bursting Hindmarsh–Rose neurons.
 
 <p align="center">
 <img src="principle.png" alt>
@@ -46,7 +44,7 @@ A C++ code that creates oscillations is the following:
 If you use this package in your publications or other work please cite the package as follows:
 
 ```
-Dmitriy Krylov, Dmitry V. Dylov, Michael Rosenblum. 2019.
+Dmitrii Krylov, Dmitry V. Dylov, Michael Rosenblum. 2019.
 ```
 
 ```
