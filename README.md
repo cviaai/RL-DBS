@@ -11,8 +11,6 @@ A class of physically meaningful reward functions enabling the suppression of co
 
 ### Installation as a project repository:
 
-Do not forget to use the flag ``--recursive`` to make sure that ``BatchFlow`` submodule is also cloned.
-
 ```
 git clone https://github.com/cviaai/RL-suppression-in-oscillatory-ensembles.git
 ```
