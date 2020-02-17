@@ -12,11 +12,19 @@ We propose a class of physically meaningful reward functions enabling the suppre
 
 
 <p align="center">
-<img src="principle.png" alt>
+<img src="RL-DBS-diagram.png" alt>
 </p>
 <p align="center">
 <em>Principle diagram of Reinforcement Learning via PPO Actor-Critic algorithm.</em>
 </p>
+
+<p align="center">
+<img src="RL-DBS-demo.png" alt>
+</p>
+<p align="center">
+<em>Demonstration of synchrony suppression via PPO A2C algorithm.</em>
+</p>
+
 
 
 
