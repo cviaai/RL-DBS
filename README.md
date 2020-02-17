@@ -34,9 +34,9 @@ We propose a class of physically meaningful reward functions enabling the suppre
 git clone https://github.com/cviaai/RL-DBS.git
 ```
 
-In this case you need to manually install the dependencies.
+In this case, you need to manually install the dependencies.
 
-### There are few important notes:
+### Important notes:
 
 Notebook file Baseline shows how the model interacts with the environment and you can find an example of a trained model in this notebook. Separate training from scratch is also shown.
 
@@ -65,6 +65,4 @@ Dmitrii Krylov, Remi Tachet, Romain Laroche, Michael Rosenblum and Dmitry V. Dyl
     archivePrefix={arXiv},
     primaryClass={q-bio.NC}
 }
-
-
 ```
