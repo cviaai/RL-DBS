@@ -8,6 +8,14 @@ The hybrid model relies on two major components: an environment of oscillators a
 
 A class of physically meaningful reward functions enabling the suppression of collective oscillatory mode is proposed. The synchrony suppression is demonstrated for two models of neuronal populations – for the ensembles of globally coupled limit-cycle Bonhoeffer-van der Pol oscillators and for the bursting Hindmarsh–Rose neurons.
 
+<p align="center">
+<img src="readme/principal.png" alt>
+</p>
+<p align="center">
+<em>Principle diagram of Reinforcement Learning via PPO Actor-Critic algorithm.</em>
+</p>
+
+
 
 ### Installation as a project repository:
 
