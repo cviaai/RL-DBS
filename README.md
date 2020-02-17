@@ -2,7 +2,7 @@
 [![Python](https://img.shields.io/badge/python-3.6-blue.svg)](https://python.org)
 
 # RL-DBS
-# Reinforcement learning for suppression of collective neuronal activity in Deep Brain Stimulation (DBS) systems
+# Reinforcement learning for suppression of collective neuronal activity in Deep Brain Stimulation (DBS)
 
 This is a convenient gym environment for developing and comparing interaction of RL agents with several types of synthetic neuronal models of pathological brain activity. The ODEs that simulate synchronized neuronal signaling are wrapped into the the framework as individual environments, allowing simple switching between different physical models, and enabling convenient approbation of various RL approaches and multiple agents. The policy gradient algorithm PPO is shown to provide a robust data-driven control of neronal synchoryzation, agnostic of the neuronal model. 
 
