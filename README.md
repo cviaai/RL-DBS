@@ -64,7 +64,7 @@ Read more in the papers:
     primaryClass={q-bio.NC}
 }
 
-@misc{krylov-RL-DBS,
+@misc{krylov-RL-Chaos,
     title={Reinforcement learning for suppression of collective activity in oscillatory ensembles},
     author={Dmitrii Krylov and Dmitry V. Dylov and Michael Rosenblum},
     year={2019},
