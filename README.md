@@ -56,10 +56,20 @@ If you use this package in your publications or in other work, please cite it as
 Dmitrii Krylov, Remi Tachet, Romain Laroche, Michael Rosenblum and Dmitry V. Dylov, 2020.
 ```
 
+Read more in the papers:
 ```
 @misc{krylov-RL-DBS,
-    title={Reinforcement Learning Framework for Deep Brain Stimulation},
+    title={Reinforcement Learning Framework for Deep Brain Stimulation Study},
     author={Dmitrii Krylov and Remi Tachet and Romain Laroche and Michael Rosenblum and Dmitry V. Dylov},
+    year={2019},
+    eprint={1909.12154},
+    archivePrefix={arXiv},
+    primaryClass={q-bio.NC}
+}
+
+@misc{krylov-RL-DBS,
+    title={Reinforcement learning for suppression of collective activity in oscillatory ensembles},
+    author={Dmitrii Krylov and Dmitry V. Dylov and Michael Rosenblum},
     year={2019},
     eprint={1909.12154},
     archivePrefix={arXiv},
