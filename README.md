@@ -12,7 +12,7 @@ We propose a class of physically meaningful reward functions enabling the suppre
 
 
 <p align="center">
-<img src="RL-DBS-diagram.png" alt>
+<img src="RL-DBS-diagram.png" width="20" alt>
 </p>
 <p align="center">
 <em>Principle diagram of Reinforcement Learning for Deep Brain Stimulation systems.</em>
