@@ -56,7 +56,7 @@ If you use this package in your publications or in other work, please cite it as
   year = {2020},
   publisher = {GitHub},
   journal = {GitHub repository},
-  howpublished = {\url{https://github.com/cviaai/RL-DBS/}},
+  howpublished = {\url{https://github.com/cviaai/RL-DBS/}}
 }
 ```
 
