@@ -50,12 +50,19 @@ A C++ code that emulates neuronal oscillations is the following file:
 If you use this package in your publications or in other work, please cite it as follows:
 
 ```
-Dmitrii Krylov, Remi Tachet, Romain Laroche, Michael Rosenblum and Dmitry V. Dylov, 2020.
+@misc{krylov-RL-DBS,
+  author = {Dmitrii Krylov, Remi Tachet, Romain Laroche, Michael Rosenblum and Dmitry V. Dylov},
+  title = {Reinforcement Learning Framework for Deep Brain Stimulation Study},
+  year = {2020},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/cviaai/RL-DBS/}},
+}
 ```
 
 Read more in the papers:
 ```
-@misc{krylov-RL-DBS,
+@misc{krylov-RL-DBS-paper,
     title={Reinforcement Learning Framework for Deep Brain Stimulation Study},
     author={Dmitrii Krylov and Remi Tachet and Romain Laroche and Michael Rosenblum and Dmitry V. Dylov},
     year={2019},
