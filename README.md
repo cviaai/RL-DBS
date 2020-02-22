@@ -16,7 +16,9 @@ This is a convenient gym environment for developing and comparing interaction of
 We propose a class of physically meaningful reward functions enabling the suppression of collective oscillatory mode. The synchrony suppression is demonstrated for two models of neuronal populations – for the ensembles of globally coupled limit-cycle Bonhoeffer-van der Pol oscillators and for the bursting Hindmarsh–Rose neurons. The suppression workflow proposed here is universal and could be used to create benchmarks among different physical models, to create different control algorithms, and to pave the way towards clinical realization of deep brain stimulation via reinforcement learning. 
 
 <p align="center">
-<img src="RL-DBS-demo.png" alt>
+<!---<img src="RL-DBS-demo.png" alt> -->
+<img src="powers.gif" alt>
+
 </p>
 <p align="center">
 <em>Demonstration of synchrony suppression via PPO A2C algorithm.</em>
