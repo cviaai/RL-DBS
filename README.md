@@ -17,7 +17,7 @@ We propose a class of physically meaningful reward functions enabling the suppre
 
 <p align="center">
 <!---<img src="RL-DBS-demo.png" alt> -->
-<img src="powers.gif" alt>
+<img src="2.gif" alt>
 
 </p>
 <p align="center">
