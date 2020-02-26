@@ -67,8 +67,8 @@ Read more in the papers:
 @misc{krylov-RL-DBS-paper,
     title={Reinforcement Learning Framework for Deep Brain Stimulation Study},
     author={Dmitrii Krylov and Remi Tachet and Romain Laroche and Michael Rosenblum and Dmitry V. Dylov},
-    year={2019},
-    eprint={1909.12154},
+    year={2020},
+    eprint={2002.10948},
     archivePrefix={arXiv},
     primaryClass={q-bio.NC}
 }
