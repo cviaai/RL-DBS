@@ -49,36 +49,25 @@ A C++ code that emulates neuronal oscillations is the following file:
 ```
 ## Citing 
 
-If you use this package in your publications or in other work, please cite it as follows:
+If you use this package in your publications or in other work, please cite these papers:
 
-```
-@misc{krylov-RL-DBS,
-  author = {Dmitrii Krylov, Remi Tachet, Romain Laroche, Michael Rosenblum and Dmitry V. Dylov},
-  title = {Reinforcement Learning Framework for Deep Brain Stimulation Study},
-  year = {2020},
-  publisher = {GitHub},
-  journal = {GitHub repository},
-  howpublished = {\url{https://github.com/cviaai/RL-DBS/}}
-}
-```
 
-Read more in the papers:
-```
-@misc{krylov-RL-DBS-paper,
-    title={Reinforcement Learning Framework for Deep Brain Stimulation Study},
-    author={Dmitrii Krylov and Remi Tachet and Romain Laroche and Michael Rosenblum and Dmitry V. Dylov},
-    year={2020},
-    eprint={2002.10948},
-    archivePrefix={arXiv},
-    primaryClass={q-bio.NC}
+@article{krylov-RL-DBS,
+title = {Reinforcement Learning Framework for Deep Brain Stimulation Study},
+author = {Krylov, Dmitrii and des Combes, Remi and Laroche, Romain and Rosenblum, Michael and Dylov, Dmitry V},
+journal = {Proceedings of the Twenty-Ninth International Joint Conference on Artificial Intelligence, {IJCAI-20}},
+pages = {2847--2854},
+doi = {10.24963/ijcai.2020/394},
+year = {2020}
 }
 
-@misc{krylov-RL-Chaos,
-    title={Reinforcement learning for suppression of collective activity in oscillatory ensembles},
+@article{krylov-RL-Chaos,
+    title={Reinforcement Learning for Suppression of Collective Activity in Oscillatory Ensembles},
     author={Dmitrii Krylov and Dmitry V. Dylov and Michael Rosenblum},
-    year={2019},
-    eprint={1909.12154},
-    archivePrefix={arXiv},
-    primaryClass={q-bio.NC}
+    journal = {Chaos: An Interdisciplinary Journal of Nonlinear Science},
+    number = {3},
+    pages = {33126},
+    volume = {30},
+    doi = {10.1063/1.5128909},
+    year = {2020}
 }
-```
