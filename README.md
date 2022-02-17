@@ -53,19 +53,16 @@ If you use this package in your publications or in other work, please cite these
 
 
 @article{krylov-RL-DBS,
-
-title = {Reinforcement Learning Framework for Deep Brain Stimulation Study},
-author = {Krylov, Dmitrii and des Combes, Remi and Laroche, Romain and Rosenblum, Michael and Dylov, Dmitry V},
-journal = {Proceedings of the Twenty-Ninth International Joint Conference on Artificial Intelligence, {IJCAI-20}},
-pages = {2847--2854},
-doi = {10.24963/ijcai.2020/394},
-url = {https://www.ijcai.org/proceedings/2020/0394},
-year = {2020}
-
+    title = {Reinforcement Learning Framework for Deep Brain Stimulation Study},
+    author = {Krylov, Dmitrii and des Combes, Remi and Laroche, Romain and Rosenblum, Michael and Dylov, Dmitry V},
+    journal = {Proceedings of the Twenty-Ninth International Joint Conference on Artificial Intelligence, {IJCAI-20}},
+    pages = {2847--2854},
+    doi = {10.24963/ijcai.2020/394},
+    url = {https://www.ijcai.org/proceedings/2020/0394},
+    year = {2020}
 }
 
 @article{krylov-RL-Chaos,
-
     title={Reinforcement Learning for Suppression of Collective Activity in Oscillatory Ensembles},
     author={Dmitrii Krylov and Dmitry V. Dylov and Michael Rosenblum},
     journal = {Chaos: An Interdisciplinary Journal of Nonlinear Science},
